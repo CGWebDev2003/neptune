@@ -1,11 +1,14 @@
 /* Import source files */
 /* Import utilities */
-@import url('/css/utilities/colors.css');
-@import url('/css/utilities/typography.css');
-@import url('/css/utilities/variables.css');
+@import url('/css/utilities/colors.min.css');
+@import url('/css/utilities/typography.min.css');
+@import url('/css/utilities/variables.min.css');
 
 /* Import components */
-@import url('/css/components/buttons.css');
+@import url('/css/components/buttons.min.css');
 
-
+* {
+    margin: 0;
+    padding: 0;
+}
 
