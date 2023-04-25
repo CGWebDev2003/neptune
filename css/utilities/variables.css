@@ -1,0 +1,10 @@
+/* Setup global variables */
+:root {
+    /* Transitions and animations */
+    --transition-duration: .3s;
+
+    /* Borders and radius */
+    --radius-s: 5px;
+    --radius-m: 8px;
+    --radius-l: 12px;
+}

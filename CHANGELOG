@@ -1,0 +1,63 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [Unreleased]
+
+## [0.1.0] - 2023-04-25
+
+### Added
+
+- Colors
+  - Shades => 0, 10, 20, ...100
+  - Black and white
+  - System colors:
+    - Success
+    - Information
+    - Warning
+    - Error
+  - Text colors:
+    - Text
+    - Text secondary
+    - Text button
+    - Text highlighted primary
+    - Text highlighted accent
+  - Primary color
+  - Accent color
+  - Global transition variable
+  - Global border radius variables => S, M, L
+- Buttons
+  - Sizes => S, M, L
+  - Different styles:
+    - Primary button
+    - Secondary button
+    - CTA button
+- Typography
+  - Import default fonts from google fonts
+    - Text => Open Sans
+    - Headlines => Poppins
+  - Headlines
+    - h1-h6
+  - Text sizes => S, M, L
+  - Text highlighting
+    - Primary
+    - Accent
+    - Secondary
+  - Text styles
+    - Cursive
+    - Line through
+    - Overlined
+    - Underlined
+    - Double line
+    - Wavy line
+    - Dotted line
+    - Dashed line
+  - Text align
+    - Start/left
+    - Center
+    - End/right
+    - Justify
+- 
