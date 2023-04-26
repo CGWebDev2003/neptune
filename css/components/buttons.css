@@ -40,38 +40,38 @@ button:hover {
 }
 
 /* Primary button */
-.button-primary { background-color: var(--primary-l-50);}
-.button-primary:hover { background-color: var(--primary-l-60);}
+.button-primary { background-color: var(--primary);}
+.button-primary:hover { background-color: var(--primary-60);}
 .button-primary:active { background-color: var(--primary-40);}
 .button-primary:focus {
-    box-shadow: 0 0 0 3px var(--primary-l-80);
+    box-shadow: 0 0 0 3px var(--primary-80);
     outline-color: transparent;
     outline-style: solid;
 }
 .button-primary:disabled {
-    background-color: var(--primary-l-80);
+    background-color: var(--primary-80);
 }
 .button-primary:disabled:hover {
-    background-color: var(--primary-l-80);
+    background-color: var(--primary-80);
     cursor: not-allowed;
 }
 
 /* secondary button */
 .button-secondary { 
     box-sizing: border-box;
-    border: 3px solid var(--primary-l-50);
+    border: 3px solid var(--primary);
     background-color: transparent;
-    color: var(--primary-l-50);
+    color: var(--primary);
 }
-.button-secondary:hover { background-color: var(--primary-l-60);}
+.button-secondary:hover { background-color: var(--primary-60);}
 .button-secondary:active { background-color: var(--primary-40);}
 .button-secondary:focus {
-    box-shadow: 0 0 0 3px var(--primary-l-80);
+    box-shadow: 0 0 0 3px var(--primary-80);
     outline-color: transparent;
     outline-style: solid;
 }
 .button-secondary:disabled {
-    background-color: var(--primary-l-80);
+    background-color: var(--primary-80);
 }
 .button-secondary:disabled:hover {
     background-color: var(--primary-l-80);
@@ -79,18 +79,18 @@ button:hover {
 }
 
 /* CTA button */
-.button-cta { background-color: var(--accent-l-50);}
-.button-cta:hover { background-color: var(--accent-l-60);}
+.button-cta { background-color: var(--accent-50);}
+.button-cta:hover { background-color: var(--accent-60);}
 .button-cta:active { background-color: var(--accent-40);}
 .button-cta:focus {
-    box-shadow: 0 0 0 3px var(--accent-l-80);
+    box-shadow: 0 0 0 3px var(--accent-80);
     outline-color: transparent;
     outline-style: solid;
 }
 .button-cta:disabled {
-    background-color: var(--accent-l-80);
+    background-color: var(--accent-80);
 }
 .button-cta:disabled:hover {
-    background-color: var(--accent-l-80);
+    background-color: var(--accent-80);
     cursor: not-allowed;
 }
