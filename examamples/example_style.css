@@ -11,7 +11,7 @@ body {
     justify-content: center;
     gap: 1rem;
     font-family: 'Open Sans', sans-serif;
-    background-color: var(--white-90);
+    background-color: var(--background);
 }
 
 .neptuneLogo {
