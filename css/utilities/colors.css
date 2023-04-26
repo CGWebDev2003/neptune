@@ -59,7 +59,7 @@
     /* System colors */
     /* Success */
     --success-hue: 140;
-    --success: var(--success-100);
+    --success: var(--success-50);
     --success-10: hsl(var(--success-hue), 100%, var(--l-10));
     --success-20: hsl(var(--success-hue), 100%, var(--l-20));
     --success-30: hsl(var(--success-hue), 100%, var(--l-30));
@@ -73,7 +73,7 @@
 
     /* Information */
     --info-hue: 200;
-    --info: var(--info-100);
+    --info: var(--info-50);
     --info-10: hsl(var(--info-hue), 100%, var(--l-10));
     --info-20: hsl(var(--info-hue), 100%, var(--l-20));
     --info-30: hsl(var(--info-hue), 100%, var(--l-30));
@@ -101,7 +101,7 @@
 
     /* Error */
     --error-hue: 10;
-    --error: var(--error-100);
+    --error: var(--error-50);
     --error-10: hsl(var(--error-hue), 100%, var(--l-10));
     --error-20: hsl(var(--error-hue), 100%, var(--l-20));
     --error-30: hsl(var(--error-hue), 100%, var(--l-30));

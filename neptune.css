@@ -6,6 +6,7 @@
 
 /* Import components */
 @import url('/css/components/buttons.min.css');
+@import url('/css/components/toasts.min.css');
 
 * {
     margin: 0;

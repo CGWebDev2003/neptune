@@ -7,6 +7,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.0] - 2023-04-26
+
+### Added
+
+- Toast components
+  - Toast styles
+    - Primary
+    - Accent
+    - Information
+    - Success
+    - Warning
+    - Error
+  - Toast positions
+    - Left-Top
+    - Left-Center
+    - Left-Bottom
+    - Right-Top
+    - Right-Center
+    - Right-Bottom
+
 ## [0.1.2] - 2023-04-25
 
 ### Changed
