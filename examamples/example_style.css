@@ -7,11 +7,11 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: start;
+    justify-content: start;
     gap: 1rem;
     font-family: 'Open Sans', sans-serif;
-    background-color: var(--background);
+    background-color: var(--background-light);
 }
 
 .neptuneLogo {
@@ -34,4 +34,26 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 4rem;
     color: hsl(190, 100%, 45%);
+}
+
+.example-title {
+    position: relative;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-bottom: -2rem;
+}
+
+.example-box {
+    position: relative;
+    padding: 2rem 1rem;
+    min-height: 3rem;
+    height: auto;
+    max-height: 60vh;
+    min-width: 250px;
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    gap: 1rem !important;
+    align-items: center;
+
 }

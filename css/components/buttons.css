@@ -2,7 +2,7 @@
 button {
     position: relative;
     box-sizing: border-box;
-    border-radius: var(--radius-m);
+    border-radius: var(--rounded-m);
     border: none;
     color: var(--text-button);
     max-width: 450px;
