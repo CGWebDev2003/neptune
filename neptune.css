@@ -5,6 +5,7 @@
 @import url('/css/utilities/variables.min.css');
 
 /* Import components */
+@import url('/css/components/badges.css');
 @import url('/css/components/buttons.min.css');
 @import url('/css/components/toasts.min.css');
 
@@ -13,3 +14,10 @@
     padding: 0;
 }
 
+a { text-decoration: none;}
+
+#scrollbar {
+    width: 500px;
+    height: 500px;
+    overflow: auto;
+}

@@ -14,46 +14,32 @@
         <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
         <title>Buttons | Neptune examples</title>
     </head>
-    <body>
-        <style>
-            body {
-                flex-direction: row;
-                flex-wrap: wrap;
-            }
-
-            .button-container {
-                position: relative;
-                width: 25rem;
-                height: 10rem;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-                gap: 1rem;
-            }
-
-            h3 { margin: 1rem;}
-        </style>
-
-        <div class="button-container">
-            <h3>Primary button</h3>
-            <button class="button-primary button-l">Primary Button L</button>
-            <button class="button-primary button-m">Primary Button M</button>
-            <button class="button-primary button-s">Primary Button S</button>
+    <body id="body" data-scrollbar>
+        <h3 class="example-title">Primary button</h3>
+        <div class="example-box">
+            <button class="button-primary button-l">Primary L</button>
+            <button class="button-primary button-m">Primary M</button>
+            <button class="button-primary button-s">Primary S</button>
         </div>
 
-        <div class="button-container">
-            <h3>Secondary button</h3>
-            <button class="button-secondary button-l">Secondary Button L</button>
-            <button class="button-secondary button-m">Secondary Button M</button>
-            <button class="button-secondary button-s">Secondary Button S</button>
+        <h3 class="example-title">Secondary button</h3>
+        <div class="example-box">
+            <button class="button-secondary button-l">Secondary L</button>
+            <button class="button-secondary button-m">Secondary M</button>
+            <button class="button-secondary button-s">Secondary S</button>
         </div>
 
-        <div class="button-container">
-            <h3>CTA button</h3>
-            <button class="button-cta button-l">CTA Button L</button>
-            <button class="button-cta button-m">CTA Button M</button>
-            <button class="button-cta button-s">CTA Button S</button>
+        <h3 class="example-title">CTA button</h3>
+        <div class="example-box">
+            <button class="button-cta button-l">CTA L</button>
+            <button class="button-cta button-m">CTA M</button>
+            <button class="button-cta button-s">CTA S</button>
         </div>
+
+        <!-- Init scrollbar -->
+        <script src="/node_modules/smooth-scrollbar/dist/smooth-scrollbar.js"></script>
+        <div id="scrollbar"></div>
+        <script>Scrollbar.initAll();</script>
+        <!-- Init scrollbar -->
     </body>
 </html>
